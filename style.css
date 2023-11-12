@@ -1,0 +1,271 @@
+body {
+  font-family: 'Righteous', sans-serif;
+  margin:40px;
+}
+
+p {
+  max-width: 380px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: baseline;
+}
+.title a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: black;
+  max-width: 370px;
+}
+
+.infos {
+  font-size: 17px;
+  color: #000000;
+}
+
+/*cadre arrondit*/
+
+.cadre-arrondi-avec-titre-et-image {
+  background-color: #ffffff;
+  text-align: center;
+  transition: .3s;
+  transform: scale(0.95);
+  border-radius: 7px;
+  padding: 0px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.cadre-arrondi-avec-titre-et-image:hover {
+  transform: scale(1);
+}
+
+/* infos */
+
+.about {
+  margin-top: 60px;
+  background-color: #000000; 
+  border: 2px solid rgb(0, 0, 0); 
+  border-radius: 15px; 
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 68vh;
+  font-family: 'overpass', 'sans-serif';
+  font-size: 20px;
+  text-align: center;
+   align-items: flex-start;
+}
+
+p{
+  max-width: 64ch;
+  margin: 0px auto 0 auto;
+}
+
+mark {
+  background-color: rgb(0, 0, 0); /* Couleur de fond de surlignage */
+  color: rgb(222, 65, 175); /* Couleur du texte à l'intérieur de la balise mark */
+}
+
+a.instagram-link {
+  color: rgb(222, 65, 175);
+  text-decoration: none;
+  position: absolute;
+  bottom: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+ font-size: 30px;
+ padding: 10px; 
+ border: 2px solid white; 
+ border-radius: 10px; 
+}
+
+
+/* infos */
+
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+/* projet */
+
+.grid-poster5{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grid-sceno{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+  .grid-typo1s{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+  }
+
+  .grid-dessin{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+.grid-concept1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  }
+
+.grid-typoedition{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.poster-typo{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+}
+
+.poster-typo2{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grid-mposter{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 25px;
+  margin-bottom:25px;
+  gap: 25px;
+}
+
+.grid-mposter2{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+margin-bottom: 25px;
+}
+.CARTE{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ gap: 25px; 
+size: 180px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+
+.mp{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-bottom: 25px; 
+  gap: 25PX;
+  margin-top: 25px;
+}
+
+.posterexpo{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 700px;
+}
+.lieu{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ gap: 25px; 
+size: 180px;
+margin-bottom: 25px;
+margin-top: 25px;
+}
+
+.grid-couverture1{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ gap: 25px; 
+margin-bottom: 20px;
+}
+
+.trouble{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.grid-casette{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.edition-principal{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.posters52{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:25px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+}
+
+.titre{
+  font-family: 'Righteous', sans-serif;
+font-size: 23px;
+}
+.texte{
+  font-family: 'overpass', 'sans-serif';
+  max-width: 74ch;
+  font-size: 19px;
+}
+
+.texte2{
+  font-family: 'overpass', 'sans-serif';
+  max-width: 74ch;
+  font-size: 19px;
+}
+
+.ligne-noire {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(222, 65, 175);
+}
